@@ -238,7 +238,7 @@ bindsym $mod+r mode "resize"
 #        status_command i3status
 #}
 EOF
-&& mkdir/home/$name/.config/nvim &&
+&& mkdir /home/$name/.config/nvim &&
 cat > /home/$name/.config/nvim/init.vim << EOF
 " Global Sets """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax on            " Enable syntax highlight
